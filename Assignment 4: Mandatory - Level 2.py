@@ -1,4 +1,11 @@
 #DSA-Assgn-4
+# The Indian Cricket Board has decided to send its best players to ICC World Cup. They have chosen the best 11 players for the match.
+# The players should be sent in for the batting based on their experience, i.e. the priority would be given to the player who has got the highest experience.
+# At the last moment, the captain has decided that the player who has got the highest experience should bat at the 4th position.
+# Use the Player class and players_list provided to implement the class Game as given in the class diagram.
+# In the constructor of Game class, initialize players_list with list of players
+# Display the name and experience of the players after sorting the players based on their experience(descending order)
+# Display the name and experience of the players after moving the first player (0 index position) to the 4th (3 index position) position.
 
 class Player:
     def __init__(self,name,experience):
