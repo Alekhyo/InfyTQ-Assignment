@@ -1,4 +1,12 @@
 #DSA-Assgn-2
+# Consider a Car class as given in the code. Write a Service class as given in the class diagram below which performs various activities on a list of cars.
+# Assume that the car_list is sorted by year in ascending order.
+# Method	                            Description
+#__init__(car_list)	                    Initializes the instance variable, car_list.
+#find_cars_by_year(year)	            Finds and returns the list of models of all the cars with the year as the one passed as the argument. If there are no cars, return None.
+#add_cars(new_car_list)	                The new_car_list should be added to the instance variable car_list.
+#                                       The car_list should be still sorted such that the years are in ascending order.
+#remove_cars_from_karnataka()	        Finds and removes all cars with registration number beginning with “KA” from the car_list.
 
 class Car:
     def __init__(self,model,year,registration_number):
